@@ -1,0 +1,1 @@
+export type Language = "jp" | "en" | "cn" | "tw" | "zh";
