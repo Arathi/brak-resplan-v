@@ -1,3 +1,8 @@
+import { Rank } from "./metadata/types";
+
+/**
+ * 学生信息
+ */
 export default interface Student {
   /**
    * 编号
@@ -12,7 +17,7 @@ export default interface Student {
   /**
    * 星级
    */
-  rank: number;
+  rank: Rank;
 
   /**
    * 必杀技能

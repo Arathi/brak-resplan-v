@@ -1,5 +1,5 @@
 import {
-  Rarity,
+  Rank,
   AttackType,
   ArmorType,
   Role,
@@ -21,7 +21,7 @@ export default interface Student {
   /**
    * 稀有度
    */
-  rarity: Rarity;
+  rarity: Rank;
 
   /**
    * 攻击类型

@@ -1,5 +1,11 @@
-export type Rarity = 1 | 2 | 3 | 4 | 5;
+/**
+ * 稀有度/星级
+ */
+export type Rank = 1 | 2 | 3 | 4 | 5;
 
+/**
+ * 攻击类型
+ */
 export enum AttackType {
   Explosive = 'explosive',
   Piercing = 'piercing',
@@ -7,6 +13,9 @@ export enum AttackType {
   Sonic = 'sonic',
 }
 
+/**
+ * 护甲类型
+ */
 export enum ArmorType {
   Light = 'light',
   Heavy = 'heavy',
@@ -14,6 +23,9 @@ export enum ArmorType {
   Elastic = 'elastic',
 }
 
+/**
+ * 职责
+ */
 export enum Role {
   Tank = 'tank',
   Dealer = 'dealer',
@@ -22,11 +34,17 @@ export enum Role {
   TacticalSupport = 'tactical_support',
 }
 
+/**
+ * 部队类型
+ */
 export enum CombatClass {
   Striker = 'striker',
   Special = 'special',
 }
 
+/**
+ * 装备分类
+ */
 export enum EquipmentCategory {
   Hat = 'hat',
   Gloves = 'gloves',
